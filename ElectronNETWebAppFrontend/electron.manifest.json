@@ -1,15 +1,15 @@
 {
-  "executable": "FileSort-Portable",
+  "executable": "ElectronNETWebAppFrontend",
   "splashscreen": {
     "imageFile": ""
   },
-  "name": "FileSort-Portable",
+  "name": "ElectronNETWebAppFrontend",
   "author": "",
   "singleInstance": false,
   "environment": "Production",
   "build": {
-    "appId": "com.FileSort-Portable.app",
-    "productName": "FileSort-Portable",
+    "appId": "com.ElectronNETWebAppFrontend.app",
+    "productName": "ElectronNETWebAppFrontend",
     "copyright": "Copyright © 2020",
     "buildVersion": "1.0.0",
     "compression": "maximum",

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FileSort_Portable.Pages;
+namespace ElectronNETWebAppFrontend.Pages;
 
 public class IndexModel : PageModel
 {
