@@ -3,6 +3,10 @@ using ElectronNET.API.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Using Electron for the web host
+builder.WebHost.UseElectron(args);
+//builder.WebHost.UseEnvironment("Development");
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 
@@ -58,4 +62,3 @@ async void CreateWindow() {
         Electron.App.Quit();
     };
 }
-
