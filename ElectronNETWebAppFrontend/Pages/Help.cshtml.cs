@@ -8,18 +8,17 @@ using Microsoft.Extensions.Logging;
 
 namespace ElectronNETWebAppFrontend.Pages
 {
-    public class Index : PageModel
+    public class Help : PageModel
     {
-        private readonly ILogger<Index> _logger;
+        private readonly ILogger<Help> _logger;
 
-        public Index(ILogger<Index> logger)
+        public Help(ILogger<Help> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
-
         }
     }
 }

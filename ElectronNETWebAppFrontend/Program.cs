@@ -40,22 +40,18 @@ async void CreateWindow() {
 
     // Browser Window option settings
     BrowserWindowOptions options = new BrowserWindowOptions() {
-      //Title = "FileSort",
-      Height = 525,
-      MaxHeight = 525,
-      MinHeight= 525,
-      Width = 410,
-      MaxWidth = 410,
-      MinWidth = 410,
+      //Height = 768,
+      Height = 600,
+      MinHeight= 600,
+      //Width = 1024,
+      Width = 800,
+      MinWidth = 800,
       Center = true,
       Fullscreenable = false
     };
 
     // Making the electron window
     var window = await Electron.WindowManager.CreateWindowAsync(options);
-
-    // Startup path (for fun)
-    //window.LoadURL("https://www.google.com");
 
     // On close the single window
     window.OnClosed += () => {
