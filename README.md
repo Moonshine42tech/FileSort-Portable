@@ -1,9 +1,13 @@
+```
+THIS PROJECT IS STILL IN ITS ALPHA STAGE
+```
+
 - [Introduction](#introduction)
   - [Purpose](#purpose)
 - [Support](#support)
 - [How it works](#how-it-works)
 
-
+---
 
 # Introduction
 FileSort is an application made to help you whenever you have a clutered up systems. 
